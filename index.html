@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-2nd</title>
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body style="background-color: rgb(240, 240, 240)">
+    <nav class="navbar " style="background-color: rgba(20, 20, 58, 0.849); ">
+        <div class="container">
+          <a class="navbar-brand" style="color: white">Assignment  &nbsp;&nbsp;&nbsp;&nbsp; Chapter 8-14</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <main >
+        <div class="container pt-4 pb-2 text-center">
+            <h4>Chapter # 8-14 |Concatenation|Prompts|if...else and if else statements</h4>
+            <hr class="mt-4">
+        </div>
+        <div class="container md-container sm-container border  rounded border-dark text-center" style="width: 92%;"> 
+            <div class="row pt-2 pb-3 ">
+                <div class="col  ">
+                    <button type="button" class="btn btn-danger btn-sm mt-2 " onclick="concatenate()">Concatenation</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" onclick="asknamefromuser()">Ask Name from user</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" onclick="comparison()">Comparison Operators</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" onclick="ifElse()">if else if</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" onclick="testingCondition()">Testing Sets Of Conditions</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" onclick="nestedStatement()">if statements Nested</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" onclick="login()">Login</button>
+                    <!-- <button type="button" class="btn btn-danger btn-sm mt-2" id="subNumber">Check</button> -->
+                </div>
+            </div>
+        </div>
+        <div class="container text-center pt-5">
+            <h4>Original Statement</h4>
+        </div>
+        <div class="container  border text-center border border-dark rounded " style="width: 92%;">
+            <br>
+            <div id="statement"></div> 
+            <br>
+        </div>
+        <div class="container text-center mt-2">
+            <button type="button" class="btn btn-outline-dark" id="clearOne">clear statement</button>
+        </div>
+        <div class="container text-center pt-5">
+            <h4>Out put/Result</h4>
+        </div>
+        <div class="container  text-center border border-dark rounded" style="width: 92%;">
+            <br>
+            <div id="output"></div>
+            <br>
+        </div>
+        <div class="container text-center mt-2">
+            <button type="button" class="btn btn-outline-dark" id="clearTwo">clear statement</button>
+        </div>
+        <div class="container mt-5 text text-center">
+            <hr>
+            <button type="button" class="btn btn-danger btn-lg" id="clearAll">Clear All</button>
+        </div>
+      </main>
+        <footer style="background-color:rgba(20, 20, 58, 0.849) " class=" text-center   p-2  mt-2  text-capitalize ">
+            <i><p style="color:aliceblue" class="align-middle">&copy;<span id="year"></span> powered by muhammad usman ali</p></i>
+        </footer>
+    <!-- link boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- link custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
